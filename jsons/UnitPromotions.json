@@ -172,7 +172,7 @@
     "prerequisites": ["Garrison I"],
     "uniques": ["[+15]% Strength <when defending>"],
     "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
-    "row": 0,
+    "row": 1,
     "column": 10
   },
   { // Mounted
