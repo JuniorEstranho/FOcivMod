@@ -1,0 +1,14 @@
+{
+  "name": "Global Uniques",
+  "uniques": [
+    "Requires establishing embassies to conduct advanced diplomacy",
+    "Cannot build [Settler] units <when below [10] [Happiness]>"
+  ],
+  "unitUniques": [
+    "[-33]% Strength <when below [10] [Happiness]>",
+    "[-1] Sight <when [Embarked]>"
+  ],
+  "civilopediaText": [
+    {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
+  ]
+}
