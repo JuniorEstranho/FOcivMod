@@ -21,10 +21,9 @@
     "techCost": 200,
     "techs": [
       {
-        "name": "Sailing",
+        "name": "Fishing",
         "row": 2,
-        "prerequisites": ["Agriculture"],
-        "uniques": ["Enables embarkation for land units"]
+        "prerequisites": ["Agriculture"]
       },
       {
         "name": "Numbers",
@@ -37,12 +36,12 @@
         "prerequisites": ["Agriculture"],
       },
       {
-        "name": "Mining",
+        "name": "Mysticism",
         "row": 8,
         "prerequisites": ["Agriculture"]
       },
       {
-        "name": "Mysticism",
+        "name": "Mining",
         "row": 10,
         "prerequisites": ["Agriculture"]
       }
@@ -56,9 +55,9 @@
     "techCost": 225,
     "techs": [
       {
-        "name": "Optics",
+        "name": "Sailing",
         "row": 1,
-        "prerequisites": ["Sailing"]
+        "prerequisites": ["Fishing"]
       },
       {
         "name": "Mathematics",
@@ -77,14 +76,14 @@
         "prerequisites": ["Trapping"],
       },
       {
-        "name": "Bronze Working",
+        "name": "Polytheism",
         "row": 8,
-        "prerequisites": ["Agriculture"]
+        "prerequisites": ["Mysticism"]
       },
       {
-        "name": "Philosophy",
+        "name": "Bronze Working",
         "row": 10,
-        "prerequisites": ["Mysticism"]
+        "prerequisites": ["Agriculture"]
       }
     ]
   },
@@ -96,9 +95,9 @@
     "techCost": 250,
     "techs": [
       {
-        "name": "Navigation",
+        "name": "Optics",
         "row": 2,
-        "prerequisites": ["Optics"],
+        "prerequisites": ["Sailing", "Mathematics"],
         "uniques": ["Enables embarkation for land units"]
       },
       {
@@ -117,19 +116,58 @@
         "prerequisites": ["Animal Husbandry"],
       },
       {
-        "name": "Masonry",
+        "name": "Philosophy",
         "row": 8,
-        "prerequisites": ["Bronze Working"]
+        "prerequisites": ["Polytheism"]
       },
       {
-        "name": "Theology",
+        "name": "Masonry",
         "row": 9,
-        "prerequisites": ["Philosophy"]
-      }
+        "prerequisites": ["Bronze Working"]
+      }  
     ]
   },
   {
     "columnNumber": 4,
+    "era": "Tribal era",
+    "buildingCost": 40,
+    "wonderCost": 50,
+    "techCost": 250,
+    "techs": [
+      {
+        "name": "Compass",
+        "row": 2,
+        "prerequisites": ["Optics"],
+      },
+      {
+        "name": "Banking",
+        "row": 4,
+        "prerequisites": ["Currency"]
+      },
+      {
+        "name": "Drama and Poetry",
+        "row": 5,
+        "prerequisites": ["Writing"]
+      },
+      {
+        "name": "The Wheel",
+        "row": 7,
+        "prerequisites": ["Animal Husbandry", "Pottery"],
+      },
+      {
+        "name": "Theology",
+        "row": 8,
+        "prerequisites": ["Philosophy"]
+      },
+      {
+        "name": "Engineering",
+        "row": 9,
+        "prerequisites": ["Masonry"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
     "era": "Tribal era",
     "buildingCost": 30,
     "wonderCost": 50,
@@ -138,7 +176,7 @@
       {
         "name": "Placeholder",
         "row": 6,
-        "prerequisites": ["Navigation","Currency","Writing","Pottery","Masonry","Theology"],
+        "prerequisites": ["Compass","Banking","Drama and Poetry","The Wheel","Engineering","Theology"],
         "uniques": ["Can be continually researched"]
       }
     ]
