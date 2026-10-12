@@ -65,7 +65,7 @@
     "unitType": "Civilian Water",
     "movement": 3,
     "uniques": ["May create improvements on water resources", "Cannot enter ocean tiles","Uncapturable","Automation is a primary action"],
-    "requiredTech": "Sailing"
+    "requiredTech": "Fishing"
   },
   {
     "name": "Galley",
@@ -114,7 +114,7 @@
     "strength": 8,
     "movement": 4,
     "uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-    "requiredTech": "Navigation",
+    "requiredTech": "Compass",
     "attackSound": "metalhit"
   }
 ]
