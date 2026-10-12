@@ -1,0 +1,146 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Tribal era",
+    "buildingCost": 20,
+    "wonderCost": 40,
+    "techCost": 180,
+    "techs": [
+      {
+        "name": "Agriculture",
+        "row": 6,
+        "uniques": ["Starting tech"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Tribal era",
+    "buildingCost": 30,
+    "wonderCost": 50,
+    "techCost": 200,
+    "techs": [
+      {
+        "name": "Sailing",
+        "row": 2,
+        "prerequisites": ["Agriculture"],
+        "uniques": ["Enables embarkation for land units"]
+      },
+      {
+        "name": "Numbers",
+        "row": 4,
+        "prerequisites": ["Agriculture"]
+      },
+      {
+        "name": "Trapping",
+        "row": 6,
+        "prerequisites": ["Agriculture"],
+      },
+      {
+        "name": "Mining",
+        "row": 8,
+        "prerequisites": ["Agriculture"]
+      },
+      {
+        "name": "Mysticism",
+        "row": 10,
+        "prerequisites": ["Agriculture"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Tribal era",
+    "buildingCost": 35,
+    "wonderCost": 50,
+    "techCost": 225,
+    "techs": [
+      {
+        "name": "Optics",
+        "row": 1,
+        "prerequisites": ["Sailing"]
+      },
+      {
+        "name": "Mathematics",
+        "row": 3,
+        "prerequisites": ["Numbers"]
+      },
+      {
+        "name": "Alphabet",
+        "row": 4,
+        "prerequisites": ["Numbers"],
+        "uniques": ["Enables establishment of embassies"]
+      },
+      {
+        "name": "Animal Husbandry",
+        "row": 6,
+        "prerequisites": ["Trapping"],
+      },
+      {
+        "name": "Bronze Working",
+        "row": 8,
+        "prerequisites": ["Agriculture"]
+      },
+      {
+        "name": "Philosophy",
+        "row": 10,
+        "prerequisites": ["Mysticism"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Tribal era",
+    "buildingCost": 40,
+    "wonderCost": 50,
+    "techCost": 250,
+    "techs": [
+      {
+        "name": "Navigation",
+        "row": 2,
+        "prerequisites": ["Optics"],
+        "uniques": ["Enables embarkation for land units"]
+      },
+      {
+        "name": "Currency",
+        "row": 4,
+        "prerequisites": ["Mathematics"]
+      },
+      {
+        "name": "Writing",
+        "row": 5,
+        "prerequisites": ["Alphabet"]
+      },
+      {
+        "name": "Pottery",
+        "row": 7,
+        "prerequisites": ["Animal Husbandry"],
+      },
+      {
+        "name": "Masonry",
+        "row": 8,
+        "prerequisites": ["Bronze Working"]
+      },
+      {
+        "name": "Theology",
+        "row": 9,
+        "prerequisites": ["Philosophy"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Tribal era",
+    "buildingCost": 30,
+    "wonderCost": 50,
+    "techCost": 250,
+    "techs": [
+      {
+        "name": "Placeholder",
+        "row": 6,
+        "prerequisites": ["Navigation","Currency","Writing","Pottery","Masonry","Theology"],
+        "uniques": ["Can be continually researched"]
+      }
+    ]
+  }
+]
