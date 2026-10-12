@@ -85,7 +85,7 @@
     "column": 5
   },
   {
-    "name": "Buccaneering I",
+    "name": "Buccaneering II",
     "prerequisites": ["Buccaneering I"],
     "uniques": ["[+15]% Strength <vs cities> <when attacking>"],
     "unitTypes": ["Melee Water"],
@@ -101,7 +101,7 @@
   },
   {
     "name": "Fleets II",
-    "prerequisites": ["Maritime Fleets I"],
+    "prerequisites": ["Fleets I"],
     "uniques": ["[+10]% Strength <vs [Water] units>"],
     "unitTypes": ["Melee Water"],
     "row": 1,
@@ -142,7 +142,7 @@
     "uniques": ["[+10]% Strength <when attacking>"],
     "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
     "row": 0,
-    "column": 8
+    "column": 9
   },
   {
     "name": "Accuracy II",
@@ -150,7 +150,7 @@
     "uniques": ["[+10]% Strength <when attacking>"],
     "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
     "row": 1,
-    "column": 8
+    "column": 9
   },
   {
     "name": "Range",
@@ -158,14 +158,14 @@
     "uniques": ["[+1] Range"],
     "unitTypes": ["Archery","Ranged Gunpowder"],
     "row": 2,
-    "column": 8
+    "column": 9
   },
   {
     "name": "Garrison I",
     "uniques": ["[+15]% Strength <when defending>", "[-25]% weight to this choice for AI decisions"],
     "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
     "row": 0,
-    "column": 9
+    "column": 10
   },
   {
     "name": "Garrison II",
@@ -173,7 +173,7 @@
     "uniques": ["[+15]% Strength <when defending>"],
     "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
     "row": 0,
-    "column": 9
+    "column": 10
   },
   { // Mounted
     "name": "Mobility",
