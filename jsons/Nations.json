@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Atlantis",
+    "leaderName": "Asopo",
+    "adjective": ["Fishes"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Time",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "I really dont want war but in this case, nothing cares now.",
+    "attacked": "Your values are distorted.",
+    "defeated": "This is my last vision? a victoriohs barbaric warlord?",
+    "introduction": "Welcome to our sea.",
+
+    "neutralHello": "Greetings.",
+    "hateHello": "Well?",
+
+    "tradeRequest": "Let's to business.",
+
+    "outerColor": [35, 187, 244],
+    "innerColor": [15, 132, 54],
+    "uniqueName": "",
+    "uniques": ["Race: Aquatic"],
+    "cities": ["Atlantis"]
+  },
+  {
+    "name": "Bunnies",
+    "leaderName": "Isabella",
+    "adjective": ["Bunny"],
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Time",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "That's a sad act but I need do it for safe us from you!",
+    "attacked": "Huh? So... do you wanna play!?",
+    "defeated": "This history will not be forgotten - we will return.",
+    "introduction": "Welcome to our hills. We are exciting for meeting you, tell me about yourself.",
+
+    "neutralHello": "Good day.",
+
+    "tradeRequest": "I am here for you.",
+
+    "outerColor": [214, 32, 60],
+    "innerColor": [255, 255, 255],
+    "uniqueName": "",
+    "uniques": ["Race: Lagomorph"],
+    "cities": ["City"]
+  },
+  {
+    "name": "Spectator",
+    // "outerColor": [255, 255, 255],
+    "innerColor": [255, 255, 255]
+  },
+  {
+    "name": "Barbarians",
+    "uniques": ["Can only heal by pillaging", "Excluded from map editor"],
+    "outerColor": [193, 150, 54],
+    "innerColor": [136, 75, 37],
+  }
+]
