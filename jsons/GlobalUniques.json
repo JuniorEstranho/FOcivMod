@@ -2,13 +2,16 @@
   "name": "Global Uniques",
   "uniques": [
     "Requires establishing embassies to conduct advanced diplomacy",
-    "Cannot build [Settler] units <when below [10] [Happiness]>"
+    "[-50]% growth [in all cities] <when below [0] [Happiness]>",
+    "[-33]% Production when constructing [all] buildings [in all cities] <when below [0] [Happiness]>",
+    "Cannot build [Settler] units <when below [-10] [Happiness]>",
+    "Nullifies Growth [in all cities] <when below [-10] [Happiness]>"
   ],
   "unitUniques": [
-    "[-33]% Strength <when below [10] [Happiness]>",
+    "[-33]% Strength <when below [-10] [Happiness]>",
     "[-1] Sight <when [Embarked]>"
   ],
   "civilopediaText": [
-    {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
+    "Cannot build [Settler] units <when below [-10] [Happiness]>",{"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
   ]
 }
