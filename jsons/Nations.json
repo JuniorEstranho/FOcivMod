@@ -4,7 +4,7 @@
     "leaderName": "Asopo",
     "adjective": ["Fishes"],
     "startBias": ["Coast"],
-    "preferredVictoryType": "Time",
+    "preferredVictoryType": "Domination",
 
     "startIntroPart1": "",
     "startIntroPart2": "",
@@ -30,7 +30,7 @@
     "leaderName": "Isabella",
     "adjective": ["Bunny"],
     "startBias": ["Grassland"],
-    "preferredVictoryType": "Time",
+    "preferredVictoryType": "Domination",
 
     "startIntroPart1": "",
     "startIntroPart2": "",
@@ -52,13 +52,13 @@
   },
   {
     "name": "Spectator",
-    // "outerColor": [255, 255, 255],
+    // "outerColor": [255, 255, 255]
     "innerColor": [255, 255, 255]
   },
   {
     "name": "Barbarians",
     "uniques": ["Can only heal by pillaging", "Excluded from map editor"],
     "outerColor": [193, 150, 54],
-    "innerColor": [136, 75, 37],
+    "innerColor": [136, 75, 37]
   }
 ]
