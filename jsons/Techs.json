@@ -4,7 +4,7 @@
     "era": "Tribal era",
     "buildingCost": 20,
     "wonderCost": 40,
-    "techCost": 180,
+    "techCost": 30,
     "techs": [
       {
         "name": "Agriculture",
@@ -18,7 +18,7 @@
     "era": "Tribal era",
     "buildingCost": 30,
     "wonderCost": 50,
-    "techCost": 200,
+    "techCost": 30,
     "techs": [
       {
         "name": "Fishing",
@@ -52,7 +52,7 @@
     "era": "Tribal era",
     "buildingCost": 35,
     "wonderCost": 50,
-    "techCost": 225,
+    "techCost": 30,
     "techs": [
       {
         "name": "Sailing",
@@ -83,7 +83,7 @@
       {
         "name": "Bronze Working",
         "row": 10,
-        "prerequisites": ["Agriculture"]
+        "prerequisites": ["Mining"]
       }
     ]
   },
@@ -92,7 +92,7 @@
     "era": "Tribal era",
     "buildingCost": 40,
     "wonderCost": 50,
-    "techCost": 250,
+    "techCost": 45,
     "techs": [
       {
         "name": "Optics",
@@ -132,7 +132,7 @@
     "era": "Tribal era",
     "buildingCost": 40,
     "wonderCost": 50,
-    "techCost": 250,
+    "techCost": 50,
     "techs": [
       {
         "name": "Compass",
@@ -151,7 +151,7 @@
       },
       {
         "name": "The Wheel",
-        "row": 7,
+        "row": 6,
         "prerequisites": ["Animal Husbandry", "Pottery"],
       },
       {
@@ -171,7 +171,7 @@
     "era": "Tribal era",
     "buildingCost": 30,
     "wonderCost": 50,
-    "techCost": 250,
+    "techCost": 60,
     "techs": [
       {
         "name": "Placeholder",
