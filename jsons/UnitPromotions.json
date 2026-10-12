@@ -1,0 +1,186 @@
+[
+  {
+    // Melee
+    "name": "Strength I",
+    "uniques": ["[+10]% Strength"],
+    "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+    "row": 0,
+    "column": 0
+  },
+  {
+    "name": "Strength II",
+    "prerequisites": ["Strength I"],
+    "uniques": ["[+10]% Strength"],
+    "unitTypes": ["Scout","Sword","Gunpowder","Mounted","Armored"],
+    "row": 1,
+    "column": 0
+  },
+  {
+    "name": "Strength III",
+    "prerequisites": ["Strength II"],
+    "uniques": ["[+10]% Strength"],
+    "unitTypes": ["Scout","Sword","Gunpowder","Mounted","Armored"],
+    "row": 2,
+    "column": 0
+  },
+  {
+    "name": "Amphibious",
+    "prerequisites": ["Strength I","Phalanx I"],
+    "uniques": ["Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over river"],
+    "unitTypes": ["Sword","Gunpowder"],
+    "row": 1,
+    "column": 4
+  },
+  {
+    "name": "Medic I",
+    "prerequisites": ["Strength I","Phalanx I"],
+    "uniques": ["All adjacent units heal [+5] HP when healing", "[-50]% weight to this choice for AI decisions"],
+    "unitTypes": ["Sword","Gunpowder"],
+    "row": 1,
+    "column": 2
+  },
+  {
+    "name": "Medic II",
+    "prerequisites": ["Medic I"],
+    "uniques": ["[+5] HP when healing"],
+    "unitTypes": ["Sword","Gunpowder"],
+    "row": 2,
+    "column": 2
+  },
+  {
+    "name": "Phalanx I",
+    "uniques": ["[+15]% to Flank Attack bonuses", "[-50]% weight to this choice for AI decisions"],
+    "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+    "row": 0,
+    "column": 1
+  },
+  {
+    "name": "Phalanx II",
+    "prerequisites": ["Phalanx I"],
+    "uniques": ["[+15]% to Flank Attack bonuses"],
+    "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+    "row": 1,
+    "column": 1
+  },
+  {
+    "name": "Cover I",
+    "uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-25]% weight to this choice for AI decisions"],
+    "unitTypes": ["Sword","Gunpowder","Siege"],
+    "row": 0,
+    "column": 3
+  },
+  {
+    "name": "Cover II",
+    "prerequisites": ["Cover I"],
+    "uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+    "unitTypes": ["Sword","Gunpowder","Siege"],
+    "row": 1,
+    "column": 3
+  },
+  { // Water Melee
+    "name": "Buccaneering I",
+    "uniques": ["[+15]% Strength <vs cities> <when attacking>"],
+    "unitTypes": ["Melee Water"],
+    "row": 0,
+    "column": 5
+  },
+  {
+    "name": "Buccaneering I",
+    "prerequisites": ["Buccaneering I"],
+    "uniques": ["[+15]% Strength <vs cities> <when attacking>"],
+    "unitTypes": ["Melee Water"],
+    "row": 1,
+    "column": 5
+  },
+  {
+    "name": "Fleets I",
+    "uniques": ["[+10]% Strength <vs [Water] units>"],
+    "unitTypes": ["Melee Water"],
+    "row": 0,
+    "column": 6
+  },
+  {
+    "name": "Fleets II",
+    "prerequisites": ["Maritime Fleets I"],
+    "uniques": ["[+10]% Strength <vs [Water] units>"],
+    "unitTypes": ["Melee Water"],
+    "row": 1,
+    "column": 6
+  },
+  {
+    "name": "Landing Party",
+    "uniques": ["Eliminates combat penalty for attacking across a coast"],
+    "unitTypes": ["Melee Water"],
+    "row": 0,
+    "column": 7
+  },
+  { // Scout
+    "name": "Mapping I",
+    "uniques": ["[+1] Sight"],
+    "unitTypes": ["Scout"],
+    "row": 0,
+    "column": 8
+  },
+  {
+    "name": "Mapping II",
+    "prerequisites": ["Mapping I"],
+    "uniques": ["[+1] Sight"],
+    "unitTypes": ["Scout"],
+    "row": 1,
+    "column": 8
+  },
+  {
+    "name": "Survivalism",
+    "prerequisites": ["Strength II","Mapping II"],
+    "uniques": ["Unit will heal every turn, even if it performs an action"],
+    "unitTypes": ["Scout"],
+    "row": 2,
+    "column": 8
+  },
+  { // Ranged
+    "name": "Accuracy I",
+    "uniques": ["[+10]% Strength <when attacking>"],
+    "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
+    "row": 0,
+    "column": 8
+  },
+  {
+    "name": "Accuracy II",
+    "prerequisites": ["Accuracy I"],
+    "uniques": ["[+10]% Strength <when attacking>"],
+    "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
+    "row": 1,
+    "column": 8
+  },
+  {
+    "name": "Range",
+    "prerequisites": ["Accuracy II"],
+    "uniques": ["[+1] Range"],
+    "unitTypes": ["Archery","Ranged Gunpowder"],
+    "row": 2,
+    "column": 8
+  },
+  {
+    "name": "Garrison I",
+    "uniques": ["[+15]% Strength <when defending>", "[-25]% weight to this choice for AI decisions"],
+    "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
+    "row": 0,
+    "column": 9
+  },
+  {
+    "name": "Garrison II",
+    "prerequisites": ["Garrison I"],
+    "uniques": ["[+15]% Strength <when defending>"],
+    "unitTypes": ["Archery","Ranged Gunpowder","Siege"],
+    "row": 0,
+    "column": 9
+  },
+  { // Mounted
+    "name": "Mobility",
+    "prerequisites": ["Strength II","Phalanx II"],
+    "uniques": ["[+1] Movement"],
+    "unitTypes": ["Mounted","Armored"],
+    "row": 2,
+    "column": 1
+  }
+]
