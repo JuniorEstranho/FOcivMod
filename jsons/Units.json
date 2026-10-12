@@ -1,0 +1,120 @@
+[
+  {
+    // Tribal era
+
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 108,
+    "hurryCostModifier": 20,
+    "uniques": ["Founds a new city", "Requires at least [2] population","Excess Food converted to Production when under construction"],
+    "requiredTech": "Agriculture"
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 64,
+    "uniques": ["Can build [Land] improvements on tiles"],
+    "requiredTech": "Agriculture"
+  },
+  {
+    "name": "Scout",
+    "unitType": "Scout",
+    "strength": 3,
+    "movement": 2,
+    "cost": 25,
+    "uniques": ["Ignores terrain cost", "Never appears as a Barbarian unit"],
+    "requiredTech": "Agriculture",
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Warrior",
+    "unitType": "Sword",
+    "strength": 5,
+    "movement": 2,
+    "cost": 40,
+    "upgradesTo": "Swordsman",
+    "requiredTech": "Agriculture",
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Archer",
+    "unitType": "Archery",
+    "strength": 4,
+    "rangedStrength": 6,
+    "movement": 2,
+    "cost": 40,
+    "requiredTech": "Trapping",
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Skirmisher",
+    "uniqueTo": "Barbarians",
+    "replaces": "Archer",
+    "unitType": "Archery",
+    "strength": 3,
+    "rangedStrength": 6,
+    "movement": 2,
+    "cost": 40,
+    "requiredTech": "Trapping",
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Work Boats",
+    "unitType": "Civilian Water",
+    "movement": 3,
+    "uniques": ["May create improvements on water resources", "Cannot enter ocean tiles","Uncapturable","Automation is a primary action"],
+    "requiredTech": "Sailing"
+  },
+  {
+    "name": "Galley",
+    "unitType": "Melee Water",
+    "strength": 6,
+    "movement": 3,
+    "cost": 50,
+    "uniques": ["Cannot enter ocean tiles"],
+    "upgradesTo": "Trireme",
+    "requiredTech": "Sailing",
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Swordsman",
+    "unitType": "Sword",
+    "strength": 8,
+    "movement": 2,
+    "cost": 80,
+    "requiredTech": "Bronze Working",
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Battering Ram",
+    "unitType": "Siege",
+    "strength": 6,
+    "movement": 2,
+    "uniques": ["[+33]% Strength <vs cities> <when attacking>", "No defensive terrain bonus"],
+    "cost": 90,
+    "requiredTech": "Bronze Working",
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Goat Rider",
+    "unitType": "Mounted",
+    "strength": 9,
+    "movement": 3,
+    "cost": 120,
+    "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
+    "requiredResource": "Goats",
+    "requiredTech": "Animal Husbandry",
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Trireme",
+    "unitType": "Melee Water",
+    "strength": 8,
+    "movement": 4,
+    "uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+    "requiredTech": "Navigation",
+    "attackSound": "metalhit"
+  }
+]
