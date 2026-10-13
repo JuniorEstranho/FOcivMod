@@ -8,9 +8,18 @@
     "uniques": ["Destroyed when the city is captured"]
   },
   {
+    "name": "Stele",
+    "culture": 1,
+    "cost": 20,
+    "hurryCostModifier": 20,
+    "maintenance": 1,
+    "uniques": ["Destroyed when the city is captured"],
+    "requiredTech": "Mysticism",
+  },
+  {
     "name": "Nursery",
     "happiness": 1,
-    "cost": 50,
+    "cost": 36,
     "hurryCostModifier": 25,
     "maintenance": 1,
     "uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when the city is captured"]
@@ -21,7 +30,7 @@
     "replaces": "Nursery",
     "happiness": 2,
     "food": 3,
-    "cost": 50,
+    "cost": 40,
     "hurryCostModifier": 25,
     "maintenance": 1,
     "uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when the city is captured"]
@@ -33,6 +42,13 @@
     "maintenance": 1,
     "uniques": ["Destroyed when the city is captured"],
     "requiredTech": "Polytheism"
+  },
+  {
+    "name": "Great Shrine",
+    "isWonder": true,
+    "culture": 6,
+    "hurryCostModifier": 0,
+    "requiredTech": "Polytheism",
   },
   {
     "name": "Stable",
@@ -55,7 +71,15 @@
     "name": "Barracks",
     "maintenance": 1,
     "uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
-    "requiredTech": "Bronze Working"
+    "requiredTech": "Masonry"
+  },
+  {
+    "name": "Lighthouse",
+    "production": 1,
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "uniques": ["[+1 Food] from [Water resource] tiles [in this city]", "Must be next to [Coast]"],
+    "requiredTech": "Optics"
   },
   {
     "name": "Library",
@@ -102,19 +126,22 @@
     "requiredTech": "Philosophy"
   },
   {
+    "name": "Stone Works",
+    "production": 1,
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "uniques": ["[+1 Production] from [Stone] tiles [in this city]",
+      "[+1 Production] from [Marble] tiles [in this city]"],
+    "requiredNearbyImprovedResources": ["Stone","Marble"],
+    "requiredTech": "Masonry"
+  },
+  {
     "name": "Water Mill",
     "food": 2,
     "production": 1,
     "maintenance": 1, 
     "hurryCostModifier": 25,
     "uniques": ["Must be next to [Fresh water]"],
-    "requiredTech": "Masonry"
-  },
-  {
-    "name": "Walls",
-    "cityStrength": 3,
-    "cityHealth": 25,
-    "hurryCostModifier": 25,
     "requiredTech": "Masonry"
   },
   {
@@ -131,5 +158,12 @@
     "uniques": ["[+1 Culture, +1 Gold] from [Wine] tiles [in this city]","[+1 Culture, +1 Gold] from [Incense] tiles [in this city]", "Destroyed when the city is captured"],
     "requiredNearbyImprovedResources": ["Wine","Incense"],
     "requiredTech": "Theology"
+  },
+  {
+    "name": "Walls",
+    "cityStrength": 3,
+    "cityHealth": 25,
+    "hurryCostModifier": 25,
+    "requiredTech": "Construction"
   }
 ]
