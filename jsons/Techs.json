@@ -17,12 +17,12 @@
     "columnNumber": 1,
     "era": "Tribal era",
     "buildingCost": 30,
-    "wonderCost": 50,
+    "wonderCost": 75,
     "techCost": 30,
     "techs": [
       {
         "name": "Fishing",
-        "row": 2,
+        "row": 1,
         "prerequisites": ["Agriculture"]
       },
       {
@@ -41,6 +41,11 @@
         "prerequisites": ["Agriculture"]
       },
       {
+        "name": "Pottery",
+        "row": 9,
+        "prerequisites": ["Agriculture"]
+      },
+      {
         "name": "Mining",
         "row": 10,
         "prerequisites": ["Agriculture"]
@@ -51,13 +56,13 @@
     "columnNumber": 2,
     "era": "Tribal era",
     "buildingCost": 35,
-    "wonderCost": 50,
+    "wonderCost": 75,
     "techCost": 40,
     "techs": [
       {
         "name": "Sailing",
         "row": 1,
-        "prerequisites": ["Fishing"]
+        "prerequisites": ["Fishing","Numbers"]
       },
       {
         "name": "Mathematics",
@@ -66,7 +71,7 @@
       },
       {
         "name": "Alphabet",
-        "row": 4,
+        "row": 5,
         "prerequisites": ["Numbers"],
         "uniques": ["Enables establishment of embassies"]
       },
@@ -91,7 +96,7 @@
     "columnNumber": 3,
     "era": "Tribal era",
     "buildingCost": 40,
-    "wonderCost": 50,
+    "wonderCost": 75,
     "techCost": 65,
     "techs": [
       {
@@ -112,9 +117,9 @@
         "prerequisites": ["Alphabet"]
       },
       {
-        "name": "Pottery",
-        "row": 7,
-        "prerequisites": ["Animal Husbandry"],
+        "name": "The Wheel",
+        "row": 6,
+        "prerequisites": ["Animal Husbandry"]
       },
       {
         "name": "Philosophy",
@@ -122,8 +127,8 @@
         "prerequisites": ["Polytheism"]
       },
       {
-        "name": "Bronze Working",
-        "row": 9,
+        "name": "Construction",
+        "row": 10,
         "prerequisites": ["Masonry"]
       }  
     ]
@@ -132,7 +137,7 @@
     "columnNumber": 4,
     "era": "Tribal era",
     "buildingCost": 40,
-    "wonderCost": 50,
+    "wonderCost": 75,
     "techCost": 90,
     "techs": [
       {
@@ -141,7 +146,7 @@
         "prerequisites": ["Optics"],
       },
       {
-        "name": "Banking",
+        "name": "Guilds",
         "row": 4,
         "prerequisites": ["Currency"]
       },
@@ -151,9 +156,9 @@
         "prerequisites": ["Writing"]
       },
       {
-        "name": "The Wheel",
+        "name": "Horseback Riding",
         "row": 6,
-        "prerequisites": ["Animal Husbandry", "Pottery"],
+        "prerequisites": ["The Wheel"]
       },
       {
         "name": "Theology",
@@ -161,23 +166,85 @@
         "prerequisites": ["Philosophy"]
       },
       {
-        "name": "Construction",
-        "row": 9,
-        "prerequisites": ["Masonry"]
+        "name": "Engineering",
+        "row": 10,
+        "prerequisites": ["Construction"]
       }
     ]
   },
   {
     "columnNumber": 5,
-    "era": "Tribal era",
-    "buildingCost": 30,
-    "wonderCost": 50,
+    "era": "Tribal era", // just for now
+    "buildingCost": 50,
+    "wonderCost": 75,
     "techCost": 130,
+    "techs": [
+      {
+        "name": "Astronomy",
+        "row": 3,
+        "prerequisites": ["Compass"]
+      },
+      {
+        "name": "Civil Service",
+        "row": 5,
+        "prerequisites": ["Guilds","Drama and Poetry"]
+      },
+      {
+        "name": "Banking",
+        "row": 9,
+        "prerequisites": ["Guilds","Horseback Riding"]
+      },
+      {
+        "name": "Bronze Working",
+        "row": 9,
+        "cost": 150,
+        "prerequisites": ["Engineering"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Tribal era", // just for now
+    "buildingCost": 50,
+    "wonderCost": 75,
+    "techCost": 150,
+    "techs": [
+      {
+        "name": "Navigation",
+        "row": 1,
+        "prerequisites": ["Compass"]
+        "uniques": ["[+1] Sight <for [Embarked] units>"]
+      },
+      {
+        "name": "Chivalry",
+        "row": 5,
+        "prerequisites": ["Civil Service","Banking"]
+      },
+      {
+        "name": "Education",
+        "row": 7,
+        "prerequisites": ["Theology","Civil Service"],
+        "uniques": ["Enables conversion of city production to [Science]",
+          "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>"]
+      },
+      {
+        "name": "Metal Casting",
+        "row": 10,
+        "prerequisites": ["Bronze Working"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Tribal era", // just for now
+    "buildingCost": 50,
+    "wonderCost": 75,
+    "techCost": 150,
     "techs": [
       {
         "name": "Placeholder",
         "row": 6,
-        "prerequisites": ["Compass","Banking","Drama and Poetry","The Wheel","Engineering","Theology"],
+        "prerequisites": ["Navigation","Chivalry","Education","Metal Casting"],
         "uniques": ["Can be continually researched"]
       }
     ]
