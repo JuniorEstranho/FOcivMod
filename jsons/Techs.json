@@ -81,7 +81,7 @@
         "prerequisites": ["Mysticism"]
       },
       {
-        "name": "Bronze Working",
+        "name": "Masonry",
         "row": 10,
         "prerequisites": ["Mining"]
       }
@@ -92,7 +92,7 @@
     "era": "Tribal era",
     "buildingCost": 40,
     "wonderCost": 50,
-    "techCost": 75,
+    "techCost": 65,
     "techs": [
       {
         "name": "Optics",
@@ -103,7 +103,8 @@
       {
         "name": "Currency",
         "row": 4,
-        "prerequisites": ["Mathematics"]
+        "prerequisites": ["Mathematics"],
+        "uniques": ["Enables conversion of city production to [Gold]"]
       },
       {
         "name": "Writing",
@@ -121,9 +122,9 @@
         "prerequisites": ["Polytheism"]
       },
       {
-        "name": "Masonry",
+        "name": "Bronze Working",
         "row": 9,
-        "prerequisites": ["Bronze Working"]
+        "prerequisites": ["Masonry"]
       }  
     ]
   },
@@ -132,7 +133,7 @@
     "era": "Tribal era",
     "buildingCost": 40,
     "wonderCost": 50,
-    "techCost": 110,
+    "techCost": 90,
     "techs": [
       {
         "name": "Compass",
@@ -160,7 +161,7 @@
         "prerequisites": ["Philosophy"]
       },
       {
-        "name": "Engineering",
+        "name": "Construction",
         "row": 9,
         "prerequisites": ["Masonry"]
       }
