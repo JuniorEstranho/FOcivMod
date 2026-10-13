@@ -4,7 +4,7 @@
     "leaderName": "Asopo",
     "adjective": ["Fishes"],
     "startBias": ["Coast"],
-    "preferredVictoryType": "Domination",
+    "preferredVictoryType": "Domination", // Cultural
 
     "startIntroPart1": "",
     "startIntroPart2": "",
@@ -12,7 +12,7 @@
     "declaringWar": "I really dont want war but in this case, nothing cares now.",
     "attacked": "Your values are distorted.",
     "defeated": "This is my last vision? a victoriohs barbaric warlord?",
-    "introduction": "Welcome to our sea.",
+    "introduction": "Welcome to our sea. I wish you peace and prosperity.",
 
     "neutralHello": "Greetings.",
     "hateHello": "Well?",
@@ -21,8 +21,8 @@
 
     "outerColor": [35, 187, 244],
     "innerColor": [15, 132, 54],
-    "uniqueName": "",
-    "uniques": ["Race: Aquatic"],
+    "uniqueName": "King of Sea",
+    "uniques": ["Race: Aquatic", "[{Military} {Land}] units gain the [Amphibious] promotion"],
     "cities": ["Atlantis"]
   },
   {
@@ -30,15 +30,15 @@
     "leaderName": "Isabella",
     "adjective": ["Bunny"],
     "startBias": ["Grassland"],
-    "preferredVictoryType": "Domination",
+    "preferredVictoryType": "Domination", // Cultural
 
     "startIntroPart1": "",
     "startIntroPart2": "",
 
     "declaringWar": "That's a sad act but I need do it for safe us from you!",
     "attacked": "Huh? So... do you wanna play!?",
-    "defeated": "This history will not be forgotten - we will return.",
-    "introduction": "Welcome to our hills. We are exciting for meeting you, tell me about yourself.",
+    "defeated": "This history part will not be forgotten - we will return.",
+    "introduction": "Welcome to our fertile hills. We are exciting for meeting you, tell me about yourself.",
 
     "neutralHello": "Good day.",
 
@@ -46,9 +46,89 @@
 
     "outerColor": [214, 32, 60],
     "innerColor": [255, 255, 255],
-    "uniqueName": "",
+    "uniqueName": "Massive Population",
     "uniques": ["Race: Lagomorph"],
     "cities": ["City"]
+  },
+  {
+    "name": "Cataclysm",
+    "leaderName": "Jinn",
+    "adjective": ["Cataclysian"],
+    "startBias": ["Avoid [Desert]"],
+    "preferredVictoryType": "Domination", // Scientific
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "It is with this message that I declare war on your nation.",
+    "attacked": "We aren't surprised, let's go on war.",
+    "denounced": "Your lies will be exposed to everyone.",
+    "defeated": "You really stronger, congratulations on your victory...",
+    "introduction": "Good day, President of the Cataclysm State for you. You likes science like us? well you looks it.",
+
+    "neutralHello": "Hello.",
+    "hateHello": "It's you.",
+
+    "tradeRequest": "I'm busy - let's get on with this.",
+
+    "outerColor": [245, 245, 245],
+    "innerColor": [44, 168, 34],
+    "uniqueName": "Scientific Rebirth",
+    "uniques": ["Race: Homunculus"],
+    "cities": ["Alpha Capital"]
+  },
+  {
+    "name": "Maleh",
+    "leaderName": "Jeremiah I",
+    "adjective": ["Maleh"],
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "With this blade, I will cut through all the injustices - for my people, for the nation and for the world.",
+    "attacked": "May be not but this sound strangely good. The world will see the power of maleh people.",
+    "denounced": "Are you trying to tarnish our image?",
+    "defeated": "I'm not afraid, your soul will pay terrible for this in a other world...",
+    "introduction": "I'm Jeremiah, a Judge King. You respect the law? good - a true man has a justice sense like me. Welcome to Maleh Kingdom.",
+
+    "neutralHello": "Greetings.",
+    "hateHello": "Hello, again.",
+
+    "tradeRequest": "It's time to business - what you think about this?",
+
+    "outerColor": [33, 154, 247],
+    "innerColor": [255, 255, 255],
+    "uniqueName": "Sword of Law",
+    "uniques": ["Race: Homunculus"],
+    "cities": ["Perses"]
+  },
+  {
+    "name": "Rasantes",
+    "leaderName": "Elohim",
+    "adjective": ["Rasante"],
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Domination",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "Your ignorant lands will receive a visit from the prophet of God!",
+    "attacked": "You fool... I'll break all your bones!",
+    "defeated": "...",
+    "introduction": "I'm Prophet Elohim, messenger of God and the Divine rightfully judge.",
+
+    "neutralHello": "Hello, again.",
+    "hateHello": "Infidel.",
+
+    "tradeRequest": "By the grace of God this agreement can be accepted?",
+
+    "outerColor": [16, 16, 16],
+    "innerColor": [255, 201, 46],
+    "uniqueName": "Apostle of God",
+    "uniques": ["Race: Homunculus"],
+    "cities": ["Ul'Messiah"]
   },
   {
     "name": "Spectator",
