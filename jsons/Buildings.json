@@ -128,7 +128,7 @@
     "name": "Monastery",
     "culture": 2,
     "hurryCostModifier": 30,
-    "uniques": ["[+1 Culture, +1 Gold] from [Wine] tiles [in this city]","[+1 Culturen, +1 Gold] from [Incense] tiles [in this city]", "Destroyed when the city is captured"],
+    "uniques": ["[+1 Culture, +1 Gold] from [Wine] tiles [in this city]","[+1 Culture, +1 Gold] from [Incense] tiles [in this city]", "Destroyed when the city is captured"],
     "requiredNearbyImprovedResources": ["Wine","Incense"],
     "requiredTech": "Theology"
   }
