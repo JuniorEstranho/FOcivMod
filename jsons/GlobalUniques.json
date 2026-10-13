@@ -5,7 +5,26 @@
     "[-50]% growth [in all cities] <when below [0] [Happiness]>",
     "[-33]% Production when constructing [all] buildings [in all cities] <when below [0] [Happiness]>",
     "Cannot build [Settler] units <when below [-10] [Happiness]>",
-    "Nullifies Growth [in all cities] <when below [-10] [Happiness]>"
+    "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+    
+    // Homunculus abilities
+    "No damage penalty for wounded units <for [Race: Homunculus] Civilizations> <hidden from users>", "Nullifies Growth [in all cities] <in cities without a [Nursery]> <for [Race: Homunculus] Civilizations> <hidden from users>",
+    
+    // Lagomorph abilities
+    
+    "[-50]% Unhappiness from [Population] [in all cities]", "[+100]% unhappiness from the number of cities", // India ability btw
+
+    // Aquatic abilities
+
+    "Enables embarkation for land units <starting from the [Tribal era]> <for [Race: Aquatic] Civilizations> <Suppress warning [*contains a conditional on a unit movement unique*]> <hidden from users>", "Enables [All] units to enter ocean tiles <starting from the [Tribal era]> <for [Race: Aquatic] Civilizations> <hidden from users>", // Polynesia ability btw
+
+    // Orc abilities
+
+    "No movement cost to pillage <for [Melee] units> <for [Race: Orc] Civilizations> <hidden from users>", "[-25]% XP required for promotions <for [Race: Orc] Civilizations> <hidden from users>",
+
+    // Lizardmen abilities
+
+    "[+1 Food] from every [Desert] <for [Race: Lizardmen] Civilizations> <hidden from users>"
   ],
   "unitUniques": [
     "[-33]% Strength <when below [-10] [Happiness]>",
