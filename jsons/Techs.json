@@ -52,7 +52,7 @@
     "era": "Tribal era",
     "buildingCost": 35,
     "wonderCost": 50,
-    "techCost": 30,
+    "techCost": 40,
     "techs": [
       {
         "name": "Sailing",
@@ -92,7 +92,7 @@
     "era": "Tribal era",
     "buildingCost": 40,
     "wonderCost": 50,
-    "techCost": 45,
+    "techCost": 75,
     "techs": [
       {
         "name": "Optics",
@@ -132,7 +132,7 @@
     "era": "Tribal era",
     "buildingCost": 40,
     "wonderCost": 50,
-    "techCost": 50,
+    "techCost": 110,
     "techs": [
       {
         "name": "Compass",
@@ -171,7 +171,7 @@
     "era": "Tribal era",
     "buildingCost": 30,
     "wonderCost": 50,
-    "techCost": 60,
+    "techCost": 130,
     "techs": [
       {
         "name": "Placeholder",
