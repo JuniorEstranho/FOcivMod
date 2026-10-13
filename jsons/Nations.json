@@ -21,7 +21,7 @@
 
     "outerColor": [35, 187, 244],
     "innerColor": [15, 132, 54],
-    "uniqueName": "King of Sea",
+    "uniqueName": "River King",
     "uniques": ["Race: Aquatic", "[{Military} {Land}] units gain the [Amphibious] promotion"],
     "cities": ["Atlantis"]
   },
@@ -46,8 +46,9 @@
 
     "outerColor": [214, 32, 60],
     "innerColor": [255, 255, 255],
-    "uniqueName": "Massive Population",
-    "uniques": ["Race: Lagomorph"],
+    "uniqueName": "Landed Elite",
+    "uniques": ["Race: Lagomorph",
+      "[+3 Food] [in all cities]"],
     "cities": ["City"]
   },
   {
@@ -74,7 +75,8 @@
     "outerColor": [245, 245, 245],
     "innerColor": [44, 168, 34],
     "uniqueName": "Scientific Rebirth",
-    "uniques": ["Race: Homunculus"],
+    "uniques": ["Race: Homunculus",
+      "[+2 Science] from every specialist [in all cities]"],
     "cities": ["Alpha Capital"]
   },
   {
@@ -101,7 +103,8 @@
     "outerColor": [33, 154, 247],
     "innerColor": [255, 255, 255],
     "uniqueName": "Sword of Law",
-    "uniques": ["Race: Homunculus"],
+    "uniques": ["Race: Homunculus",
+      "[+2 Culture, +1 Gold] from each Trade Route"],
     "cities": ["Perses"]
   },
   {
@@ -127,7 +130,8 @@
     "outerColor": [16, 16, 16],
     "innerColor": [255, 201, 46],
     "uniqueName": "Apostle of God",
-    "uniques": ["Race: Homunculus"],
+    "uniques": ["Race: Homunculus",
+      "Receive [+200]% Gold from Barbarian encampments and pillaging Cities"],
     "cities": ["Ul'Messiah"]
   },
   {
@@ -137,7 +141,7 @@
   },
   {
     "name": "Barbarians",
-    "uniques": ["Can only heal by pillaging", "Excluded from map editor"],
+    "uniques": ["Can only heal by pillaging","[Water] units gain the [Unable to pillage tiles] promotion", "Excluded from map editor"],
     "outerColor": [193, 150, 54],
     "innerColor": [136, 75, 37]
   }
