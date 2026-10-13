@@ -14,14 +14,14 @@
     "name": "Worker",
     "unitType": "Civilian",
     "movement": 2,
-    "cost": 64,
-    "uniques": ["Can build [Land] improvements on tiles"],
+    "cost": 70,
+    "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
     "requiredTech": "Agriculture"
   },
   {
     "name": "Scout",
     "unitType": "Scout",
-    "strength": 3,
+    "strength": 4,
     "movement": 2,
     "cost": 25,
     "uniques": ["Ignores terrain cost", "Never appears as a Barbarian unit"],
@@ -64,6 +64,7 @@
     "name": "Work Boats",
     "unitType": "Civilian Water",
     "movement": 3,
+    "cost": 64,
     "uniques": ["May create improvements on water resources", "Cannot enter ocean tiles","Uncapturable","Automation is a primary action"],
     "requiredTech": "Fishing"
   },
@@ -81,10 +82,11 @@
   {
     "name": "Swordsman",
     "unitType": "Sword",
-    "strength": 8,
+    "strength": 7,
     "movement": 2,
     "cost": 80,
     "requiredTech": "Bronze Working",
+    "requiredResource": "Copper",
     "attackSound": "metalhit"
   },
   {
@@ -92,7 +94,7 @@
     "unitType": "Siege",
     "strength": 6,
     "movement": 2,
-    "uniques": ["[+33]% Strength <vs cities> <when attacking>", "No defensive terrain bonus"],
+    "uniques": ["[+33]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Never appears as a Barbarian unit"],
     "cost": 90,
     "requiredTech": "Bronze Working",
     "attackSound": "metalhit"
@@ -100,10 +102,10 @@
   {
     "name": "Goat Rider",
     "unitType": "Mounted",
-    "strength": 9,
+    "strength": 8,
     "movement": 3,
     "cost": 120,
-    "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus"],
+    "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
     "requiredResource": "Goats",
     "requiredTech": "Animal Husbandry",
     "attackSound": "nonmetalhit"
@@ -111,10 +113,19 @@
   {
     "name": "Trireme",
     "unitType": "Melee Water",
-    "strength": 8,
+    "strength": 9,
     "movement": 4,
+    "cost": 130,
     "uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
     "requiredTech": "Compass",
     "attackSound": "metalhit"
+  },
+  { // Great Person
+    "name": "Great General",
+    "unitType": "Civilian",
+    "movement": 2,
+    "uniques": ["[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+      "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+      "Can be earned through combat <for [Land] units>", "Is part of Great Person group [General]","Great Person - [War]", "Unbuildable","Uncapturable"]
   }
 ]
