@@ -3,7 +3,7 @@
     // Melee
     "name": "Strength I",
     "uniques": ["[+10]% Strength"],
-    "unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+    "unitTypes": ["Scout","Sword","Gunpowder","Mounted","Armored"],
     "row": 0,
     "column": 0
   },
@@ -182,5 +182,9 @@
     "unitTypes": ["Mounted","Armored"],
     "row": 2,
     "column": 1
+  },
+  { // Barbarians
+    "name": "Unable to pillage tiles",
+    "uniques": ["Unable to pillage tiles"]
   }
 ]
