@@ -1,7 +1,7 @@
 [
   {
     "name": "Monument",
-    "culture": 1,
+    "culture": 2,
     "cost": 40,
     "hurryCostModifier": 40,
     "maintenance": 1,
@@ -11,16 +11,20 @@
     "name": "Nursery",
     "happiness": 1,
     "cost": 50,
+    "hurryCostModifier": 25,
     "maintenance": 1,
-    "uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when when city is captured"]
+    "uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when the city is captured"]
   },
   {
-    "name": "Stele",
-    "science": 2,
-    "cost": 30,
+    "name": "Breeders",
+    "uniqueTo": "Cataclysm",
+    "replaces": "Nursery",
+    "happiness": 2,
+    "food": 3,
+    "cost": 50,
+    "hurryCostModifier": 25,
     "maintenance": 1,
-    "uniques": ["Destroyed when the city is captured"],
-    "requiredTech": "Alphabet"
+    "uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when the city is captured"]
   },
   {
     "name": "Shrine",
@@ -33,7 +37,7 @@
   {
     "name": "Stable",
     "maintenance": 1,
-    "hurryCostModifier": 0,
+    "hurryCostModifier": 25,
     "uniques": ["[+1 Production] from [Cattle] tiles [in this city]",
       "[+1 Production] from [Goats] tiles [in this city]",
       "[+1 Production] from [Sheep] tiles [in this city]"],
@@ -44,7 +48,7 @@
     "name": "Circus",
     "happiness": 2,
     "maintenance": 1,
-    "hurryCostModifier": 10,
+    "hurryCostModifier": 30,
     "requiredTech": "Animal Husbandry",
   },
   {
@@ -58,7 +62,25 @@
     "maintenance": 1,
     "hurryCostModifier": 10,
     "uniques": ["[+1 Science] per [2] population [in this city]"],
-    "requiredBuilding": "Stele",
+    "requiredTech": "Writing"
+  },
+  {
+    "name": "Courthouse",
+    "cost": 100,
+    "hurryCostModifier": 50,
+    "maintenance": 3,
+    "uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
+    "requiredTech": "Writing"
+  },
+  {
+    "name": "Public Courthouse",
+    "uniqueTo": "Maleh",
+    "replaces": "Courthouse",
+    "happiness": 3,
+    "cost": 50,
+    "hurryCostModifier": 50,
+    "maintenance": 0,
+    "uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
     "requiredTech": "Writing"
   },
   {
@@ -66,7 +88,7 @@
     "food": 2,
     "hurryCostModifier": 10,
     "uniques": ["[+1 Food] from [Wheat] tiles [in this city]",
-      "[+1 Food] from [Bananas] tiles"],
+      "[+1 Food] from [Bananas] tiles [in this city]"],
     "maintenance": 1,
     "requiredTech": "Pottery"
   },
@@ -101,5 +123,13 @@
     "percentStatBonus": {"gold": 33},
     "hurryCostModifier": 25,
     "requiredTech": "Currency"
+  },
+  {
+    "name": "Monastery",
+    "culture": 2,
+    "hurryCostModifier": 30,
+    "uniques": ["[+1 Culture, +1 Gold] from [Wine] tiles [in this city]","[+1 Culturen, +1 Gold] from [Incense] tiles [in this city]", "Destroyed when the city is captured"],
+    "requiredNearbyImprovedResources": ["Wine","Incense"],
+    "requiredTech": "Theology"
   }
 ]
