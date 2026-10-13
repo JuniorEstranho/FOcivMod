@@ -196,7 +196,7 @@
       },
       {
         "name": "Bronze Working",
-        "row": 9,
+        "row": 10,
         "cost": 150,
         "prerequisites": ["Engineering"]
       }
