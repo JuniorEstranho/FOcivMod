@@ -4,7 +4,8 @@
     "era": "Ancient era",
     "priorities": {
       "Neutral": 10,
-      "Domination": 0,
+      "Cultural": 10,
+      "Domination": 0
     },
     "uniques": [
       "[+1 Culture] [in all cities]"
@@ -55,7 +56,8 @@
     "era": "Ancient era",
     "priorities": {
       "Neutral": 5,
-      "Domination": 5,
+      "Cultural": 5,
+      "Domination": 5
     },
     "uniques": [
       "[+25]% Strength <vs [Barbarian] units>",
@@ -109,15 +111,16 @@
     "era": "Ancient era",
     "priorities": {
       "Neutral": 5,
-      "Domination": 10,
+      "Cultural": 0,
+      "Domination": 10
     },
     "uniques": [
-      "[-25]% maintenance costs for [Military] units"
+      "[-25]% maintenance costs <for [Military] units>"
     ]
     "policies": [
       {
         "name": "Tribalism",
-        "uniques": ["[+10]% Strength <when fighting in [Enemy Land] tiles"],
+        "uniques": ["[+10]% Strength <when fighting in [Enemy Land] tiles>"],
         "row": 1,
         "column": 1
       },
