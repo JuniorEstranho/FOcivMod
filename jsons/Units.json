@@ -43,7 +43,7 @@
     "uniqueTo": "Barbarians",
     "replaces": "Warrior",
     "unitType": "Sword",
-    "strength": 5,
+    "strength": 4,
     "movement": 2,
     "cost": 20,
     "upgradesTo": "Swordsman",
@@ -67,6 +67,7 @@
     "unitType": "Archery",
     "strength": 3,
     "rangedStrength": 6,
+    "range": 1,
     "movement": 2,
     "cost": 40,
     "requiredTech": "Trapping",
@@ -92,6 +93,16 @@
     "attackSound": "nonmetalhit"
   },
   {
+    "name": "Chariot Archer",
+    "unitType": "Archery",
+    "strength": 4,
+    "rangedStrength": 6,
+    "movement": 3,
+    "uniques": ["Rough terrain penalty","No defensive terrain bonus", "Never appears asa Barbarian unit"],
+    "requiredResource": "Goats",
+    "requiredTech": "Animal Husbandry"
+  },
+  {
     "name": "Spearman",
     "unitType": "Sword",
     "strength": 7,
@@ -109,15 +120,26 @@
     "cost": 120,
     "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
     "requiredResource": "Goats",
-    "requiredTech": "Animal Husbandry",
+    "requiredTech": "Horseback Riding",
     "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Battering Ram",
+    "unitType": "Siege",
+    "strength": 6,
+    "movement": 2,
+    "uniques": ["[+33]% Strength <vs cities> <when attacking>", "Can only attack [City] units","No defensive terrain bonus","Never appears as a Barbarian unit"],
+    "cost": 90,
+    "requiredTech": "Engineering",
+    "requiredResource": "Copper",
+    "attackSound": "metalhit"
   },
   {
     "name": "Trireme",
     "unitType": "Melee Water",
     "strength": 9,
     "movement": 4,
-    "cost": 130,
+    "cost": 120,
     "uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
     "requiredTech": "Compass",
     "attackSound": "metalhit"
@@ -128,17 +150,6 @@
     "strength": 9,
     "movement": 2,
     "cost": 80,
-    "requiredTech": "Bronze Working",
-    "requiredResource": "Copper",
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Battering Ram",
-    "unitType": "Siege",
-    "strength": 6,
-    "movement": 2,
-    "uniques": ["[+33]% Strength <vs cities> <when attacking>", "Can only attack [City] units","No defensive terrain bonus","Never appears as a Barbarian unit"],
-    "cost": 90,
     "requiredTech": "Bronze Working",
     "requiredResource": "Copper",
     "attackSound": "metalhit"
