@@ -43,7 +43,7 @@
     "uniqueTo": "Barbarians",
     "replaces": "Warrior",
     "unitType": "Sword",
-    "strength": 4,
+    "strength": 5,
     "movement": 2,
     "cost": 20,
     "upgradesTo": "Swordsman",
@@ -56,7 +56,7 @@
     "strength": 4,
     "rangedStrength": 6,
     "movement": 2,
-    "cost": 40,
+    "cost": 45,
     "requiredTech": "Trapping",
     "attackSound": "arrow"
   },
@@ -69,7 +69,7 @@
     "rangedStrength": 6,
     "range": 1,
     "movement": 2,
-    "cost": 40,
+    "cost": 45,
     "requiredTech": "Trapping",
     "attackSound": "arrow"
   },
@@ -86,7 +86,7 @@
     "unitType": "Melee Water",
     "strength": 6,
     "movement": 3,
-    "cost": 50,
+    "cost": 70,
     "uniques": ["Cannot enter ocean tiles"],
     "upgradesTo": "Trireme",
     "requiredTech": "Sailing",
@@ -98,7 +98,8 @@
     "strength": 4,
     "rangedStrength": 6,
     "movement": 3,
-    "uniques": ["Rough terrain penalty","No defensive terrain bonus", "Never appears asa Barbarian unit"],
+    "cost": 70,
+    "uniques": ["Rough terrain penalty","No defensive terrain bonus", "Never appears as a Barbarian unit"],
     "requiredResource": "Goats",
     "requiredTech": "Animal Husbandry"
   },
@@ -109,18 +110,22 @@
     "movement": 2,
     "cost": 56,
     "uniques": ["[+33]% Strength <vs [Mounted] units>"],
+    "upgradesTo": "Pikeman",
     "requiredTech": "Masonry",
+    "obsoleteTech": "Metal Casting",
     "attackSound": "metalhit"
   },
   {
     "name": "Goat Rider",
     "unitType": "Mounted",
-    "strength": 8,
+    "strength": 9,
     "movement": 3,
-    "cost": 120,
+    "cost": 100,
     "uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
     "requiredResource": "Goats",
+    "upgradesTo": "Knight",
     "requiredTech": "Horseback Riding",
+    "obsoleteTech": "Chivalry",
     "attackSound": "nonmetalhit"
   },
   {
@@ -128,11 +133,20 @@
     "unitType": "Siege",
     "strength": 6,
     "movement": 2,
-    "uniques": ["[+33]% Strength <vs cities> <when attacking>", "Can only attack [City] units","No defensive terrain bonus","Never appears as a Barbarian unit"],
+    "uniques": ["[+50]% Strength <vs cities> <when attacking>", "Can only attack [City] units","No defensive terrain bonus","Never appears as a Barbarian unit"],
     "cost": 90,
-    "requiredTech": "Engineering",
+    "requiredTech": "The Wheel",
     "requiredResource": "Copper",
     "attackSound": "metalhit"
+  },
+  {
+    "name": "Longbowman",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 6,
+    "rangedStrength": 9,
+    "cost": 90,
+    "requiredTech": "Engineering"
   },
   {
     "name": "Trireme",
@@ -149,10 +163,29 @@
     "unitType": "Sword",
     "strength": 9,
     "movement": 2,
-    "cost": 80,
+    "cost": 96,
     "requiredTech": "Bronze Working",
     "requiredResource": "Copper",
     "attackSound": "metalhit"
+  },
+  {
+    "name": "Pikeman",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 10,
+    "cost": 100,
+    "uniques": ["[+33]% Strength <vs [Mounted] units>"],
+    "requiredTech": "Metal Casting"
+  },
+  {
+    "name": "Knight",
+    "unitType": "Mounted",
+    "movement": 4,
+    "strength": 12,
+    "cost": 120,
+    "uniques": ["Can move after attacking", "No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+    "requiredResource": "Goats",
+    "requiredTech": "Chivalry"
   },
   { // Great Person
     "name": "Great General",
