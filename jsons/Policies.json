@@ -1,10 +1,10 @@
 [
   {
     "name": "Piety",
-    "era": "Tribal era",
+    "era": "Ancient era",
     "priorities": {
       "Neutral": 10,
-      "Domination": 5,
+      "Domination": 0,
     },
     "uniques": [
       "[+1 Culture] [in all cities]"
@@ -12,42 +12,146 @@
     "policies": [
       {
         "name": "Collectivism",
-        "uniques": ["[+1 Production] [in all cities]",
-          "Can build [all] improvements at a [+25]% rate"],
+        "uniques": ["[+1 Production] [in all cities]", "[+5]% Production when constructing [All] buildings [in all cities]"],
         "row": 1,
-        "column": 1,
+        "column": 1
       },
       {
         "name": "Oral Tradition",
-        "uniques": ["[+1 Happiness] [in all cities connected to capital]"]
+        "uniques": ["[+1 Food] [in all cities]"]
         "row": 1,
         "column": 3
       },
       {
         "name": "Paternalism",
-        "uniques": ["[+33]% Strength for cities <when defending> <with a garrison>"]
+        "uniques": ["[+1 Happiness] [in all cities]"]
         "row": 1,
-        "column": 5,
+        "column": 5
       },
       {
         "name": "Fertility Rites",
         "uniques": ["[+50]% Production when constructing [Settler] units [in capital]",
           "Free [Settler] appears"]
-        "requires": ["Collectivism","Oral Tradition"],
+        "requires": ["Collectivism"],
         "row": 2,
         "column": 2
       },
       {
         "name": "Protectionism",
-        "uniques": ["[+1 Gold] [in all cities]"]
+        "uniques": ["[+33]% Strength for cities <when defending> <with a garrison>"]
         "requires": ["Oral Tradition","Paternalism"],
         "row": 2,
         "column": 4
       },
       {
         "name": "Piety Complete",
-        "uniques": ["[+10]% Strength <when fighting in [Friendly Land] tiles>",
-          "Get the leader title of [Chieftain [LeaderName]]"]
+        "uniques": ["[+10]% growth [in all cities]",
+          "Get the leader title of [Chieftain [leaderName]]"]
+      }
+    ]
+  },
+  {
+    "name": "Honor",
+    "era": "Ancient era",
+    "priorities": {
+      "Neutral": 5,
+      "Domination": 5,
+    },
+    "uniques": [
+      "[+25]% Strength <vs [Barbarian] units>",
+      "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+      "Notified of new Barbarian encampments"
+    ]
+    "policies": [
+      {
+        "name": "Warrior Code",
+        "uniques": ["[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
+        "row": 1,
+        "column": 2
+      },
+      {
+        "name": "Justice Sense",
+        "uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"]
+        "row": 1,
+        "column": 4
+      },
+      {
+        "name": "Discipline",
+        "uniques": ["[+50]% XP gained from combat <for [Military] units>"]
+        "requires": ["Warrior Code"],
+        "row": 2,
+        "column": 1
+      },
+      {
+        "name": "Military Tradition",
+        "uniques": ["[Great General] is earned [50]% faster",
+          "Free [Great General] appears"]
+        "requires": ["Warrior Code","Justice Sense"],
+        "row": 2,
+        "column": 3
+      },
+      {
+        "name": "Professional Army",
+        "uniques": ["New [Military] units start with [10] XP [in all cities]"]
+        "requires": ["Justice Sense"],
+        "row": 2,
+        "column": 5
+      },
+      {
+        "name": "Honor Complete",
+        "uniques": ["Earn [33]% of killed [Military] unit's [Strength] as [Golden Age points]",
+          "Get the leader title of [[leaderName] the Great]"]
+      }
+    ]
+  },
+  {
+    "name": "Barbary",
+    "era": "Ancient era",
+    "priorities": {
+      "Neutral": 5,
+      "Domination": 10,
+    },
+    "uniques": [
+      "[-25]% maintenance costs for [Military] units"
+    ]
+    "policies": [
+      {
+        "name": "Tribalism",
+        "uniques": ["[+10]% Strength <when fighting in [Enemy Land] tiles"],
+        "row": 1,
+        "column": 1
+      },
+      {
+        "name": "Spoils of War",
+        "uniques": ["Earn [25]% of the damage done to [City] units as [Gold]", "Earn [10]% of killed [Military] unit's [Strength] as [Gold]"]
+        "row": 1,
+        "column": 3
+      },
+      {
+        "name": "War Clans",
+        "uniques": ["[+15]% Production when constructing [Melee] units [in all cities]"],
+        "requires": ["Tribalism"],
+        "row": 2,
+        "column": 1
+      },
+      {
+        "name": "Military Caste",
+        "uniques": ["[+1 Happiness, +1 Culture] from every [Barracks]"]
+        "requires": ["Spoils of War"],
+        "row": 2,
+        "column": 3
+      },
+      {
+        "name": "God of War",
+        "uniques": ["[+1 Happiness] [in all cities] <when at war>"]
+        "requires": ["War Clans","Military Caste"],
+        "row": 3,
+        "column": 2
+      },
+      {
+        "name": "Barbary Complete",
+        "uniques": ["Cities are razed [2] times as fast",
+          "Get the leader title of [[leaderName] the Barbarian]"]
       }
     ]
   }
