@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Asopo",
+    "production": 4,
+    "food": 6,
+    "gold": 5,
+    "science": 5,
+    "culture": 5, 
+    "happiness": 6, 
+    "faith": 5,
+    "military": 6,
+    "aggressive": 4,
+    "declareWar": 3,
+    "commerce": 5,
+    "diplomacy": 7,
+    "loyal": 7,
+    "expansion": 5,
+    "denounceWillingness": 8,
+    "priorities": {
+      "Piety": 10,
+      "Honor": 5,
+      "Barbary": 3
+    }
+  },
+  {
+    "name": "Elohim",
+    "production": 5,
+    "food": 4,
+    "gold": 5,
+    "science": 5,
+    "culture": 4, 
+    "happiness": 5, 
+    "faith": 7,
+    "military": 7,
+    "aggressive": 5,
+    "declareWar": 6,
+    "commerce": 4,
+    "diplomacy": 4,
+    "loyal": 4,
+    "expansion": 6,
+    "denounceWillingness": 5,
+    "priorities": {
+      "Piety": 6,
+      "Honor": 7,
+      "Barbary": 4
+    }
+  },
+  {
+    "name": "Isabella II",
+    "production": 4,
+    "food": 8,
+    "gold": 4,
+    "science": 6,
+    "culture": 4, 
+    "happiness": 5, 
+    "faith": 6,
+    "military": 6,
+    "aggressive": 5,
+    "declareWar": 4,
+    "commerce": 7,
+    "diplomacy": 7,
+    "loyal": 6,
+    "expansion": 6,
+    "denounceWillingness": 7,
+    "priorities": {
+      "Piety": 8,
+      "Honor": 4,
+      "Barbary": 2
+    }
+  },
+  {
+    "name": "Jeremiah I",
+    "production": 5,
+    "food": 5,
+    "gold": 6,
+    "science": 5,
+    "culture": 5, 
+    "happiness": 6, 
+    "faith": 7,
+    "military": 7,
+    "aggressive": 5,
+    "declareWar": 6,
+    "commerce": 6,
+    "diplomacy": 6,
+    "loyal": 5,
+    "expansion": 8,
+    "denounceWillingness": 6,
+    "priorities": {
+      "Piety": 6,
+      "Honor": 6,
+      "Barbary": 2
+    }
+  },
+  {
+    "name": "Jinn",
+    "production": 6,
+    "food": 4,
+    "gold": 5,
+    "science": 7,
+    "culture": 3, 
+    "happiness": 4, 
+    "faith": 2,
+    "military": 7,
+    "aggressive": 5,
+    "declareWar": 6,
+    "commerce": 6,
+    "diplomacy": 6,
+    "loyal": 4,
+    "expansion": 6,
+    "denounceWillingness": 6,
+    "priorities": {
+      "Piety": 8,
+      "Honor": 3,
+      "Barbary": 4
+    }
+  }
+]
