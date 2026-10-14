@@ -2,9 +2,9 @@
   {
     "columnNumber": 0,
     "era": "Ancient era",
-    "buildingCost": 20,
-    "wonderCost": 40,
-    "techCost": 30,
+    "buildingCost": 50,
+    "wonderCost": 100,
+    "techCost": 175,
     "techs": [
       {
         "name": "Agriculture",
@@ -16,9 +16,9 @@
   {
     "columnNumber": 1,
     "era": "Ancient era",
-    "buildingCost": 30,
-    "wonderCost": 75,
-    "techCost": 30,
+    "buildingCost": 50,
+    "wonderCost": 100,
+    "techCost": 180,
     "techs": [
       {
         "name": "Fishing",
@@ -55,9 +55,9 @@
   {
     "columnNumber": 2,
     "era": "Ancient era",
-    "buildingCost": 35,
-    "wonderCost": 75,
-    "techCost": 40,
+    "buildingCost": 50,
+    "wonderCost": 100,
+    "techCost": 180,
     "techs": [
       {
         "name": "Sailing",
@@ -88,16 +88,16 @@
       {
         "name": "Masonry",
         "row": 10,
-        "prerequisites": ["Mining"]
+        "prerequisites": ["Mining","Pottery"]
       }
     ]
   },
   {
     "columnNumber": 3,
     "era": "Classical era",
-    "buildingCost": 40,
-    "wonderCost": 75,
-    "techCost": 65,
+    "buildingCost": 50,
+    "wonderCost": 100,
+    "techCost": 195,
     "techs": [
       {
         "name": "Optics",
@@ -136,9 +136,9 @@
   {
     "columnNumber": 4,
     "era": "Classical era",
-    "buildingCost": 40,
-    "wonderCost": 75,
-    "techCost": 90,
+    "buildingCost": 60,
+    "wonderCost": 110,
+    "techCost": 195,
     "techs": [
       {
         "name": "Compass",
@@ -175,19 +175,19 @@
   },
   {
     "columnNumber": 5,
-    "era": "Medieval era", // just for now
-    "buildingCost": 50,
-    "wonderCost": 75,
-    "techCost": 130,
+    "era": "Medieval era",
+    "buildingCost": 75,
+    "wonderCost": 125,
+    "techCost": 210,
     "techs": [
       {
         "name": "Astronomy",
-        "row": 3,
+        "row": 1,
         "prerequisites": ["Compass"]
       },
       {
         "name": "Civil Service",
-        "row": 5,
+        "row": 4,
         "prerequisites": ["Guilds","Drama and Poetry"]
       },
       {
@@ -205,10 +205,10 @@
   },
   {
     "columnNumber": 6,
-    "era": "Medieval era", // just for now
-    "buildingCost": 50,
-    "wonderCost": 75,
-    "techCost": 150,
+    "era": "Medieval era",
+    "buildingCost": 75,
+    "wonderCost": 150,
+    "techCost": 210,
     "techs": [
       {
         "name": "Navigation",
@@ -237,10 +237,10 @@
   },
   {
     "columnNumber": 7,
-    "era": "Medieval era", // just for now
-    "buildingCost": 50,
-    "wonderCost": 75,
-    "techCost": 150,
+    "era": "Medieval era",
+    "buildingCost": 75,
+    "wonderCost": 150,
+    "techCost": 250,
     "techs": [
       {
         "name": "Placeholder",
