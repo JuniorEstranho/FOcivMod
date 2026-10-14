@@ -16,7 +16,7 @@
 
     // Aquatic abilities
 
-    "Enables embarkation for land units <starting from the [Tribal era]> <for [Race: Aquatic] Civilizations> <Suppress warning [*contains a conditional on a unit movement unique*]> <hidden from users>", "Enables [All] units to enter ocean tiles <starting from the [Tribal era]> <for [Race: Aquatic] Civilizations> <hidden from users>", // Polynesia ability btw
+    "Enables embarkation for land units <starting from the [Ancient era]> <for [Race: Aquatic] Civilizations> <Suppress warning [*contains a conditional on a unit movement unique*]> <hidden from users>", "Enables [All] units to enter ocean tiles <starting from the [Ancient era]> <for [Race: Aquatic] Civilizations> <hidden from users>", // Polynesia ability btw
 
     // Orc abilities
 
