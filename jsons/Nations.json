@@ -4,8 +4,9 @@
     "leaderName": "Asopo",
     "adjective": ["Fishes"],
     "startBias": ["Coast"],
-    "preferredVictoryType": "Domination", // Cultural
-
+    "preferredVictoryType": "Cultural",
+    "personality": "Asopo",
+    
     "startIntroPart1": "",
     "startIntroPart2": "",
 
@@ -28,11 +29,12 @@
   },
   {
     "name": "Bunnies",
-    "leaderName": "Isabella",
+    "leaderName": "Isabella II",
     "adjective": ["Bunny"],
     "startBias": ["Grassland"],
-    "preferredVictoryType": "Domination", // Cultural
-
+    "preferredVictoryType": "Cultural",
+    "personality": "Isabella II",
+    
     "startIntroPart1": "",
     "startIntroPart2": "",
 
@@ -58,8 +60,9 @@
     "leaderName": "Jinn",
     "adjective": ["Cataclysian"],
     "startBias": ["Avoid [Desert]"],
-    "preferredVictoryType": "Domination", // Scientific
-
+    "preferredVictoryType": "Cultural",
+    "personality": "Jinn",
+    
     "startIntroPart1": "",
     "startIntroPart2": "",
 
@@ -88,7 +91,8 @@
     "adjective": ["Maleh"],
     "startBias": ["Desert"],
     "preferredVictoryType": "Domination",
-
+    "personality": "Jeremiah I",
+    
     "startIntroPart1": "",
     "startIntroPart2": "",
 
@@ -117,7 +121,8 @@
     "adjective": ["Rasante"],
     "startBias": ["Desert"],
     "preferredVictoryType": "Domination",
-
+    "personality": "Elohim",
+    
     "startIntroPart1": "",
     "startIntroPart2": "",
 
