@@ -109,6 +109,7 @@
     "strength": 7,
     "movement": 2,
     "cost": 56,
+    "hurryCostModifier": 10,
     "uniques": ["[+33]% Strength <vs [Mounted] units>"],
     "upgradesTo": "Pikeman",
     "requiredTech": "Masonry",
@@ -133,10 +134,10 @@
     "unitType": "Siege",
     "strength": 6,
     "movement": 2,
-    "uniques": ["[+50]% Strength <vs cities> <when attacking>", "Can only attack [City] units","No defensive terrain bonus","Never appears as a Barbarian unit"],
     "cost": 90,
+    "hurryCostModifier": 10,
+    "uniques": ["[+50]% Strength <vs cities> <when attacking>", "Can only attack [City] units","No defensive terrain bonus","Never appears as a Barbarian unit"],
     "requiredTech": "The Wheel",
-    "requiredResource": "Copper",
     "attackSound": "metalhit"
   },
   {
@@ -164,6 +165,7 @@
     "strength": 9,
     "movement": 2,
     "cost": 96,
+    "hurryCostModifier": 10,
     "requiredTech": "Bronze Working",
     "requiredResource": "Copper",
     "attackSound": "metalhit"
