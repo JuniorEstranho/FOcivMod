@@ -21,7 +21,7 @@
 		"name": "Nursery",
 		"food": 1,
 		"cost": 26,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 10,
 		"maintenance": 1,
 		"uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when the city is captured"]
 	},
@@ -32,22 +32,14 @@
 		"happiness": 2,
 		"food": 2,
 		"cost": 30,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 10,
 		"maintenance": 1,
 		"uniques": ["Population starts grown", "Only available <for [Race: Homunculus] Civilizations>", "Destroyed when the city is captured"]
-	},
-	{    // Column 0
-		"name": "Dock",
-		"production": 1,
-		"gold": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Enables water units built in this city", "Must be next to [Coast]"],
-		"requiredTech": "Fishing"
 	},
 	{
 		"name": "Stele",
 		"science": 1,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 0,
 		"uniques": ["Destroyed when the city is captured", "Must not be next to [Tundra]"],
 		"requiredBuilding": "Monument",
 		"requiredTech": "Alphabet"
@@ -64,7 +56,7 @@
 	{
 		"name": "Granary",
 		"food": 2,
-		"hurryCostModifier": 10,
+		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]"],
 		"maintenance": 1,
@@ -213,10 +205,9 @@
 	},
 	{
 		"name": "Harbor",
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Connects trade routes over water","[+1 Production, +1 Gold] from [Water resource] tiles [in this city", "Must be next to [Coast]"],
-		"requiredBuilding": "Dock",
 		"requiredTech": "Compass"
 	},
 	{
@@ -226,6 +217,15 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Monument",
 		"requiredTech": "Drama and Poetry",
+	},
+	{
+		"name": "Circus Maximus",
+		"isNationalWonder": true,
+		"happiness": 6,
+		"culture": 1,
+		"cost": 125,
+		"uniques": ["Only available <if [Circus] is constructed in all cities>"],
+		"requiredTech": "Horseback Riding"
 	},
 	{    // Medieval Era
 		"name": "Bank",
