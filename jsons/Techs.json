@@ -2,9 +2,9 @@
   {
     "columnNumber": 0,
     "era": "Ancient era",
-    "buildingCost": 50,
-    "wonderCost": 100,
-    "techCost": 175,
+    "buildingCost": 25,
+    "wonderCost": 50,
+    "techCost": 185,
     "techs": [
       {
         "name": "Agriculture",
@@ -16,9 +16,9 @@
   {
     "columnNumber": 1,
     "era": "Ancient era",
-    "buildingCost": 50,
-    "wonderCost": 100,
-    "techCost": 180,
+    "buildingCost": 25,
+    "wonderCost": 50,
+    "techCost": 185,
     "techs": [
       {
         "name": "Fishing",
@@ -55,9 +55,9 @@
   {
     "columnNumber": 2,
     "era": "Ancient era",
-    "buildingCost": 50,
-    "wonderCost": 100,
-    "techCost": 180,
+    "buildingCost": 35,
+    "wonderCost": 60,
+    "techCost": 185,
     "techs": [
       {
         "name": "Sailing",
@@ -95,9 +95,9 @@
   {
     "columnNumber": 3,
     "era": "Classical era",
-    "buildingCost": 50,
-    "wonderCost": 100,
-    "techCost": 195,
+    "buildingCost": 35,
+    "wonderCost": 60,
+    "techCost": 200,
     "techs": [
       {
         "name": "Optics",
@@ -136,9 +136,9 @@
   {
     "columnNumber": 4,
     "era": "Classical era",
-    "buildingCost": 60,
-    "wonderCost": 110,
-    "techCost": 195,
+    "buildingCost": 35,
+    "wonderCost": 60,
+    "techCost": 200,
     "techs": [
       {
         "name": "Compass",
@@ -176,9 +176,9 @@
   {
     "columnNumber": 5,
     "era": "Medieval era",
-    "buildingCost": 75,
-    "wonderCost": 125,
-    "techCost": 210,
+    "buildingCost": 45,
+    "wonderCost": 70,
+    "techCost": 225,
     "techs": [
       {
         "name": "Astronomy",
@@ -198,7 +198,6 @@
       {
         "name": "Bronze Working",
         "row": 10,
-        "cost": 150,
         "prerequisites": ["Engineering"]
       }
     ]
@@ -206,9 +205,9 @@
   {
     "columnNumber": 6,
     "era": "Medieval era",
-    "buildingCost": 75,
-    "wonderCost": 150,
-    "techCost": 210,
+    "buildingCost": 45,
+    "wonderCost": 70,
+    "techCost": 225,
     "techs": [
       {
         "name": "Navigation",
@@ -238,9 +237,9 @@
   {
     "columnNumber": 7,
     "era": "Medieval era",
-    "buildingCost": 75,
-    "wonderCost": 150,
-    "techCost": 250,
+    "buildingCost": 45,
+    "wonderCost": 70,
+    "techCost": 225,
     "techs": [
       {
         "name": "Placeholder",
