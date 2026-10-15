@@ -25,7 +25,7 @@
     "uniqueName": "River King",
     "uniques": ["Race: Aquatic", "[{Military} {Land}] units gain the [Amphibious] promotion",
       "Starts with [Fishing]", "Starts with [Mysticism]"],
-    "cities": ["Atlantis"]
+    "cities": ["Atlantis","Blop Bubble","Crab Crevice","Coral Nautical","Kelp Forest","Grand Lake","Shallow Waters","Deep Sea","Squid Valley","Coral Forest"]
   },
   {
     "name": "Bunnies",
@@ -83,7 +83,7 @@
     "uniques": ["Race: Homunculus",
       "[+2 Science] from every specialist [in all cities]",
       "Starts with [Numbers]", "Starts with [Mining]"],
-    "cities": ["Alpha Capital"]
+    "cities": ["Alpha Capital","Beta City","Delta Town","Sigma River","Omega Settle","Gamma State","Lambda Town","Omicron City","Pi Town"]
   },
   {
     "name": "Maleh",
@@ -113,7 +113,35 @@
     "uniques": ["Race: Homunculus",
       "[+2 Gold, +1 Culture] from each Trade Route",
       "Starts with [Numbers]", "Starts with [Mysticism]"],
-    "cities": ["Perses"]
+    "cities": ["Perses","Halo","Andro","Cazco","Serena","Ul"]
+  },
+  {
+    "name": "Primordial",
+    "leaderName": "Icarus I",
+    "adjective": ["Primordial"],
+    "startBias": ["Jungle"],
+    "preferredVictoryType": "Domination",
+    "personality": "Icarus",
+    
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "It's your end. It's time to get out my way!",
+    "attacked": "Ha ha ha ha!",
+    "defeated": "I congratulate you for your victory.",
+    "introduction": "On guard men! We will check you things... It's ok! What's your name?",
+
+    "neutralHello": "Hail.",
+    "hateHello": "Ahh... you...",
+
+    "tradeRequest": "Accept it or die.",
+
+    "outerColor": [245, 245, 245],
+    "innerColor": [235, 0, 0],
+    "uniqueName": "Melee Combat Lord",
+    "uniques": ["Race: Homunculus", "[-50]% maintenance costs <for [Melee] units>", "[+50]% maintenance costs <for [Ranged] units>",
+      "Starts with [Trapping]", "Starts with [Pottery]"],
+    "cities": ["Ymir"]
   },
   {
     "name": "Rasantes",
